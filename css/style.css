@@ -1,0 +1,61 @@
+.header {
+  font-family: "sans-serif";
+  padding: 10px 0;
+}
+
+.inner {
+  display: flex;
+  width: 100%;
+  color: #00036d;
+  justify-content: space-between;
+}
+
+.company {
+  font-size: 24px;
+  margin: 0 0 0 30px;
+}
+
+.menu {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  font-family: "serif";
+}
+
+.content {
+  position: relative;
+  top: 50px;
+  height: 600px;
+}
+
+.firstview {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.firstview img {
+  width: 50%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 75%;
+  z-index: 2;
+  font-size: 80px;
+}
+
+.rectangle {
+  position: absolute;
+  top: 90%;
+  z-index: 1;
+  width:75%;
+  height: 200px;
+  background: #00227f;
+}
